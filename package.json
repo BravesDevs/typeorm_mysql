@@ -1,0 +1,29 @@
+{
+  "name": "maxpool_mysql",
+  "version": "1.0.0",
+  "description": "This project is for the demonstration of the max pool connections of the database connections.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p src/",
+    "dev": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "start": "npm run build && npm run dev"
+  },
+  "keywords": [
+    "DB",
+    "MySQL",
+    "Node"
+  ],
+  "author": "Alexei",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40"
+  }
+}
