@@ -11,7 +11,7 @@ export const ormConfig: ConnectionOptions = {
     charset: 'utf8mb4',
     synchronize: false,
     timezone: "UTC",
-    extra: { connectionLimit: 10 },
+    extra: { connectionLimit: 20 },
     entities: [
         './**/entities/*.js'
     ],
